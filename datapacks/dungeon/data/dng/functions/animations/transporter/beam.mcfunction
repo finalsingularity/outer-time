@@ -1,0 +1,2 @@
+execute if score dng.rand_2 dng.math matches 0 run summon falling_block ~ ~ ~ {BlockState:{Name:"minecraft:yellow_stained_glass_pane"},NoGravity:1b,Time:530,DropItem:0b,Motion:[0.0,0.25,0.0]}
+execute if score dng.rand_2 dng.math matches 1 run summon falling_block ~ ~ ~ {BlockState:{Name:"minecraft:cyan_stained_glass_pane"},NoGravity:1b,Time:530,DropItem:0b,Motion:[0.0,0.25,0.0]}

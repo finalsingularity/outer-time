@@ -1,0 +1,1 @@
+execute if entity @a[tag=dng.debug] as @e[type=marker] at @s run particle crit ~ ~0.5 ~ 0 0 0 2 0 normal @a[tag=dng.debug]

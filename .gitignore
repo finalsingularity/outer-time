@@ -1,0 +1,16 @@
+.directory
+*.kate-swp
+level.dat_old
+session.lock
+/advancements/
+/data/
+/DIM-1/
+/DIM1/
+/dimensions/dng/the_past/
+/dimensions/dng/the_present/
+/entities/
+/generated/
+/playerdata/
+/poi/
+/region/
+/stats/

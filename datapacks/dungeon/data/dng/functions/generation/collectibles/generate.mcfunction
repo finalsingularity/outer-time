@@ -1,0 +1,1 @@
+execute as @e[type=marker,tag=!dng.collectible.assigned,tag=dng.collectible] run function dng:generation/collectibles/set

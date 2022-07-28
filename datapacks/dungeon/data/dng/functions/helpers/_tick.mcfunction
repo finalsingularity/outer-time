@@ -1,0 +1,1 @@
+function dng:helpers/rand

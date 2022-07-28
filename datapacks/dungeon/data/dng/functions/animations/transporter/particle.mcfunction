@@ -1,0 +1,1 @@
+particle block yellow_stained_glass_pane ~ ~ ~ 1 1 1 1 5 normal
