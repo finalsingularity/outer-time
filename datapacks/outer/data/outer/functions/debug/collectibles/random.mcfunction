@@ -1,0 +1,1 @@
+give @p bat_spawn_egg{display:{Name:'{"text":"Random Collectible"}'},EntityTag:{id:"minecraft:marker",Tags:["outer.collectible"]}} 1

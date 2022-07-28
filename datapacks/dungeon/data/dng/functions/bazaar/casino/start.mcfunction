@@ -1,1 +1,0 @@
-scoreboard players set dng.active dng.bazaar.casino 1

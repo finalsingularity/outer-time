@@ -1,0 +1,1 @@
+scoreboard players set outer.active outer.bazaar.casino 1

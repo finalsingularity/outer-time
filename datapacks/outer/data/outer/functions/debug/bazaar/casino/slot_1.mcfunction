@@ -1,0 +1,1 @@
+give @s bat_spawn_egg{display:{Name:'{"text":"Slot 1 Marker"}'},EntityTag:{id:"minecraft:marker",Tags:["outer.bazaar","outer.bazaar.casino","outer.slot.1"]}} 1

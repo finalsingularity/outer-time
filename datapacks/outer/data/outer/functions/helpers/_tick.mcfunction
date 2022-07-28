@@ -1,0 +1,1 @@
+function outer:helpers/rand
