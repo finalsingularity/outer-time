@@ -966,6 +966,11 @@
 			}
 		}
 	],
+	"display": {
+		"head": {
+			"translation": [0, -23.25, 0]
+		}
+	},
 	"groups": [
 		{
 			"name": "Coin",
