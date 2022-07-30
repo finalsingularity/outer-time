@@ -1,0 +1,1 @@
+give @p iron_nugget{display:{Name:'{"text":"ɴᴏᴛᴇ","italic":false}'},CustomModelData:8002} 1
