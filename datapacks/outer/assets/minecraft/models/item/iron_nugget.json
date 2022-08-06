@@ -15,6 +15,12 @@
         "custom_model_data": 8002
       },
       "model": "outer:item/currency/note"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8003
+      },
+      "model": "outer:item/currency/prestige"
     }
   ]
 }

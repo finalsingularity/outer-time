@@ -1,1 +1,2 @@
-execute as @e[type=marker,tag=!outer.collectible.assigned,tag=outer.collectible,distance=..10000] run function outer:generation/collectibles/set
+execute in outer:the_past as @e[type=marker,tag=!outer.collectible.assigned,tag=outer.collectible,distance=..10000] run function outer:generation/collectibles/set
+execute in outer:the_present as @e[type=marker,tag=!outer.collectible.assigned,tag=outer.collectible,distance=..10000] run function outer:generation/collectibles/set

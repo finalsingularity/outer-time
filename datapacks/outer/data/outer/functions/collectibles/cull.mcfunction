@@ -1,0 +1,1 @@
+execute at @s unless entity @e[tag=outer.collectible.assigned,distance=..1] run kill @s

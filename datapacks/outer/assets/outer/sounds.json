@@ -1,0 +1,8 @@
+{
+    "collectibles.gold.pickup": {
+        "sounds": [
+            "outer:collectibles/gold/clink_1",
+            "outer:collectibles/gold/clink_2"
+        ]
+    }
+}
