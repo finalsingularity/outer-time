@@ -8,23 +8,47 @@
       "predicate": {
         "custom_model_data": 8001
       },
-      "model": "outer:item/gems/ruby"
+      "model": "outer:item/gems/collectible/ruby"
     },
     {
       "predicate": {
         "custom_model_data": 8002
       },
-      "model": "outer:item/gems/topaz"
+      "model": "outer:item/gems/collectible/topaz"
     },
     {
       "predicate": {
         "custom_model_data": 8003
       },
-      "model": "outer:item/gems/emerald"
+      "model": "outer:item/gems/collectible/emerald"
     },
     {
       "predicate": {
         "custom_model_data": 8004
+      },
+      "model": "outer:item/gems/collectible/sapphire"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8005
+      },
+      "model": "outer:item/gems/ruby"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8006
+      },
+      "model": "outer:item/gems/topaz"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8007
+      },
+      "model": "outer:item/gems/emerald"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8008
       },
       "model": "outer:item/gems/sapphire"
     }
