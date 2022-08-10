@@ -1,0 +1,1 @@
+give @p emerald{display:{Name:'{"text":"Emerald","italic":false}'},CustomModelData:8007} 1
