@@ -1,0 +1,89 @@
+[
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{Items:[]}"
+  },
+  {
+    "function": "minecraft:set_name",
+    "entity": "this",
+    "name": {
+      "selector": "@s",
+      "italic": false,
+      "extra": [
+        "'s Bundle"
+      ]
+    }
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": "⭐ ",
+        "color": "gold",
+        "italic": false,
+        "extra": [
+          {
+            "score": {
+              "name": "@s",
+              "objective": "outer.gold"
+            }
+          }
+        ]
+      },
+      {
+        "text": "♦ ",
+        "color": "red",
+        "italic": false,
+        "extra": [
+          {
+            "score": {
+              "name": "@s",
+              "objective": "outer.ruby"
+            }
+          }
+        ]
+      },
+      {
+        "text": "♦ ",
+        "color": "yellow",
+        "italic": false,
+        "extra": [
+          {
+            "score": {
+              "name": "@s",
+              "objective": "outer.topaz"
+            }
+          }
+        ]
+      },
+      {
+        "text": "♦ ",
+        "color": "green",
+        "italic": false,
+        "extra": [
+          {
+            "score": {
+              "name": "@s",
+              "objective": "outer.emerald"
+            }
+          }
+        ]
+      },
+      {
+        "text": "♦ ",
+        "color": "blue",
+        "italic": false,
+        "extra": [
+          {
+            "score": {
+              "name": "@s",
+              "objective": "outer.sapphire"
+            }
+          }
+        ]
+      }
+    ],
+    "replace": true
+  }
+]

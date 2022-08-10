@@ -1,0 +1,1 @@
+give @s golden_sword{display:{Name:'{"text":"Death Blade","italic":false}'},HideFlags:3,Damage:32,Enchantments:[{id:"minecraft:vanishing_curse",lvl:1s}],AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:100000,Operation:2,UUID:[I;1877496528,-362984007,-1441040937,553428676],Slot:"mainhand"}]} 1
