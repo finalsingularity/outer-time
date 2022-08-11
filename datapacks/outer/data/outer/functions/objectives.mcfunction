@@ -17,7 +17,9 @@ scoreboard objectives add outer.temp.emerald dummy
 scoreboard objectives add outer.temp.sapphire dummy
 
 # Items
+scoreboard objectives add outer.item.bundle.used minecraft.used:bundle
 scoreboard objectives add outer.item.bundle.slot dummy
+scoreboard objectives add outer.item.bundle.count dummy
 
 # Debug
 scoreboard objectives add outer.teleport.bazaar trigger
