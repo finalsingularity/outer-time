@@ -1,1 +1,12 @@
-place template outer:test ~ ~ ~
+execute if score outer.structure outer.generation matches 1 run place template outer:catacombs/past/baths ~ ~ ~
+execute if score outer.structure outer.generation matches 2 run place template outer:catacombs/past/library ~ ~ ~
+execute if score outer.structure outer.generation matches 3 run place template outer:catacombs/past/tree ~ ~ ~
+execute if score outer.structure outer.generation matches 4 run place template outer:catacombs/past/staircase ~ ~ ~
+execute if score outer.structure outer.generation matches 5 run place template outer:catacombs/past/treasure ~ ~ ~
+execute if score outer.structure outer.generation matches 6 run place template outer:catacombs/past/arena ~ ~ ~
+execute if score outer.structure outer.generation matches 7 run place template outer:catacombs/past/hallway ~ ~ ~
+execute if score outer.structure outer.generation matches 8 run place template outer:catacombs/past/kitchen ~ ~ ~
+execute if score outer.structure outer.generation matches 9 run place template outer:catacombs/past/statue ~ ~ ~
+execute if score outer.structure outer.generation matches 10 run place template outer:catacombs/past/fountain ~ ~ ~
+execute if score outer.structure outer.generation matches 11 run place template outer:catacombs/past/lava ~ ~ ~
+execute if score outer.structure outer.generation matches 12 run place template outer:catacombs/past/portal ~ ~ ~
