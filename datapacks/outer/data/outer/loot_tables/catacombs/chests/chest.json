@@ -16,6 +16,27 @@
           "type": "minecraft:loot_table",
           "name": "outer:catacombs/chests/rare"
         }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.4
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "outer:catacombs/chests/legendary"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.02
+        }
       ]
     }
   ]
