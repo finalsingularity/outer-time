@@ -1,1 +1,1 @@
-execute in outer:the_bazaar run function outer:generation/private/start
+execute unless score outer.generation outer.status matches 1.. in outer:the_bazaar run function outer:generation/private/start

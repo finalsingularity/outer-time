@@ -1,0 +1,1 @@
+execute in outer:the_present run tp @a 190 1 -97

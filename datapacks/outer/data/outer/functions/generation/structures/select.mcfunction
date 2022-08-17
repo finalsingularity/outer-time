@@ -14,4 +14,13 @@ execute if score outer.rand_100 outer.math matches 80..87 run scoreboard players
 execute if score outer.rand_100 outer.math matches 88..96 run scoreboard players set outer.structure outer.generation 12
 execute if score outer.rand_100 outer.math matches 97.. run scoreboard players set outer.structure outer.generation 7
 
-tellraw @a {"score":{"name":"outer.structure","objective":"outer.generation"}}
+# Collosseum
+execute if score outer.x_pos outer.generation matches 4 if score outer.y_pos outer.generation matches 4 run scoreboard players set outer.structure outer.generation 13
+execute if score outer.x_pos outer.generation matches 4 if score outer.y_pos outer.generation matches 5 run scoreboard players set outer.structure outer.generation 14
+execute if score outer.x_pos outer.generation matches 4 if score outer.y_pos outer.generation matches 6 run scoreboard players set outer.structure outer.generation 15
+
+execute if score outer.x_pos outer.generation matches 5 if score outer.y_pos outer.generation matches 4 run scoreboard players set outer.structure outer.generation 16
+execute if score outer.x_pos outer.generation matches 5 if score outer.y_pos outer.generation matches 5 run scoreboard players set outer.structure outer.generation 17
+execute if score outer.x_pos outer.generation matches 5 if score outer.y_pos outer.generation matches 6 run scoreboard players set outer.structure outer.generation 18
+
+tellraw @a[tag=outer.debug] [{"text":"ID: "},{"score":{"name":"outer.structure","objective":"outer.generation"}},{"text":" RNG: "},{"score":{"name":"outer.rng","objective":"outer.math"}}]
