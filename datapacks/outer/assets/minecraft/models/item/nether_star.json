@@ -1,0 +1,38 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/nether_star"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 8001
+      },
+      "model": "outer:item/artefacts/goblet"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8002
+      },
+      "model": "outer:item/artefacts/lapis_charm"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8003
+      },
+      "model": "outer:item/artefacts/red_book"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8004
+      },
+      "model": "outer:item/artefacts/scales"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8005
+      },
+      "model": "outer:item/artefacts/wreath"
+    }
+  ]
+}
