@@ -1,5 +1,0 @@
-tellraw @s[scores={outer.temp.gold=1..}] [{"text":"+","color":"gold"},{"score":{"name":"@s","objective":"outer.temp.gold"}},{"text":" Gold"}]
-tellraw @s[scores={outer.temp.ruby=1..}] [{"text":"+","color":"red"},{"score":{"name":"@s","objective":"outer.temp.ruby"}},{"text":" Ruby"}]
-tellraw @s[scores={outer.temp.topaz=1..}] [{"text":"+","color":"yellow"},{"score":{"name":"@s","objective":"outer.temp.topaz"}},{"text":" Topaz"}]
-tellraw @s[scores={outer.temp.emerald=1..}] [{"text":"+","color":"green"},{"score":{"name":"@s","objective":"outer.temp.emerald"}},{"text":" Emerald"}]
-tellraw @s[scores={outer.temp.sapphire=1..}] [{"text":"+","color":"blue"},{"score":{"name":"@s","objective":"outer.temp.sapphire"}},{"text":" Sapphire"}]

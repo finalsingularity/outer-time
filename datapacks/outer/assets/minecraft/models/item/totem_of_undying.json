@@ -1,0 +1,38 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/totem_of_undying"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 8001
+      },
+      "model": "outer:item/totems/fire"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8002
+      },
+      "model": "outer:item/totems/speed"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8003
+      },
+      "model": "outer:item/totems/regen"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8004
+      },
+      "model": "outer:item/totems/life"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8005
+      },
+      "model": "outer:item/totems/night"
+    }
+  ]
+}

@@ -82,6 +82,19 @@
             }
           }
         ]
+      },
+      {
+        "text": "© ",
+        "color": "gray",
+        "italic": false,
+        "extra": [
+          {
+            "score": {
+              "name": "@s",
+              "objective": "outer.credit"
+            }
+          }
+        ]
       }
     ],
     "replace": true

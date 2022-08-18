@@ -1,0 +1,1 @@
+give @s bundle{display:{Name:'{"text":"Right Click to Start","italic":false}'},Items:[]} 1
