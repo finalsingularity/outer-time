@@ -1,0 +1,33 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "mainhand": {
+            "items": [
+              "minecraft:totem_of_undying"
+            ],
+            "nbt": "{outer.item.totem.speed:1b}"
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "offhand": {
+            "items": [
+              "minecraft:totem_of_undying"
+            ],
+            "nbt": "{outer.item.totem.speed:1b}"
+          }
+        }
+      }
+    }
+  ]
+}

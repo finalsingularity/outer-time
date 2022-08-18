@@ -40,6 +40,12 @@
           ]
         }
       ],
+      "functions": [
+        {
+          "function": "minecraft:set_nbt",
+          "tag": "{outer.item.junk:1b}"
+        }
+      ],
       "conditions": [
         {
           "condition": "minecraft:random_chance",
@@ -189,7 +195,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{outer.item.totem.fire:1,CustomModelData:8001}"
+              "tag": "{outer.item.totem.fire:1b,CustomModelData:8001}"
             }
           ]
         },
@@ -206,7 +212,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{outer.item.totem.speed:1,CustomModelData:8002}"
+              "tag": "{outer.item.totem.speed:1b,CustomModelData:8002}"
             }
           ]
         },
@@ -223,7 +229,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{outer.item.totem.regen:1,CustomModelData:8003}"
+              "tag": "{outer.item.totem.regen:1b,CustomModelData:8003}"
             }
           ]
         },
@@ -240,7 +246,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{outer.item.totem.life:1,CustomModelData:8004}"
+              "tag": "{outer.item.totem.life:1b,CustomModelData:8004}"
             }
           ]
         },
@@ -281,6 +287,12 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:shield"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_nbt",
+          "tag": "{outer.item.junk:1b}"
         }
       ],
       "conditions": [
@@ -381,7 +393,7 @@
                   "italic": false
                 },
                 {
-                  "text": "Collosseum Set - (1/8)",
+                  "text": "Collosseum Set - (1/5)",
                   "color": "gray",
                   "italic": false
                 }
@@ -413,7 +425,7 @@
                   "italic": false
                 },
                 {
-                  "text": "Collosseum Set - (2/8)",
+                  "text": "Collosseum Set - (2/5)",
                   "color": "gray",
                   "italic": false
                 }
@@ -445,7 +457,7 @@
                   "italic": false
                 },
                 {
-                  "text": "Collosseum Set - (3/8)",
+                  "text": "Collosseum Set - (3/5)",
                   "color": "gray",
                   "italic": false
                 }
@@ -477,7 +489,7 @@
                   "italic": false
                 },
                 {
-                  "text": "Collosseum Set - (4/8)",
+                  "text": "Collosseum Set - (4/5)",
                   "color": "gray",
                   "italic": false
                 }
@@ -509,7 +521,7 @@
                   "italic": false
                 },
                 {
-                  "text": "Collosseum Set - (5/8)",
+                  "text": "Collosseum Set - (5/5)",
                   "color": "gray",
                   "italic": false
                 }

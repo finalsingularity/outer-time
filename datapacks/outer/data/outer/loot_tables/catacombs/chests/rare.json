@@ -11,6 +11,10 @@
           "name": "minecraft:suspicious_stew",
           "functions": [
             {
+              "function": "minecraft:set_nbt",
+              "tag": "{outer.item.junk:1b}"
+            },
+            {
               "function": "minecraft:set_stew_effect",
               "effects": [
                 {
@@ -101,6 +105,12 @@
             }
           ]
         }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_nbt",
+          "tag": "{outer.item.junk:1b}"
+        }
       ]
     },
     {
@@ -109,6 +119,12 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:ender_pearl"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_nbt",
+          "tag": "{outer.item.junk:1b}"
         }
       ],
       "conditions": [
@@ -143,6 +159,12 @@
               "id": "minecraft:strong_strength"
             }
           ]
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_nbt",
+          "tag": "{outer.item.junk:1b}"
         }
       ],
       "conditions": [

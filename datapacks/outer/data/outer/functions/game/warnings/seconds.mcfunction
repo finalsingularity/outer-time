@@ -1,0 +1,1 @@
+title @a[tag=outer.dungeon] actionbar ["",{"text":"Outer Timeline Collapsing! ","bold":true,"color":"red"},{"score":{"name":"outer.dungeon.time","objective":"outer.status"},"bold":true,"color":"red"},{"text":"s Remain!","bold":true,"color":"red"}]

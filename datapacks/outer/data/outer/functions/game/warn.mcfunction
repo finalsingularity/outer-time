@@ -1,0 +1,3 @@
+execute if score outer.dungeon.time.minutes outer.status matches 0 run function outer:game/warnings/seconds
+execute if score outer.dungeon.time.minutes outer.status matches 1.. if score outer.dungeon.time.seconds outer.status matches 1.. run function outer:game/warnings/minutes_seconds
+execute if score outer.dungeon.time.minutes outer.status matches 1.. if score outer.dungeon.time.seconds outer.status matches 0 run function outer:game/warnings/minutes

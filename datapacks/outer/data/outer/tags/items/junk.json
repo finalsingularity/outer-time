@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:golden_helmet",
+    "minecraft:golden_axe",
+    "minecraft:golden_sword",
+    "minecraft:cooked_beef",
+    "minecraft:diamond_helmet",
+    "minecraft:netherite_helmet",
+    "minecraft:suspicious_stew",
+    "minecraft:ender_pearl",
+    "minecraft:potion",
+    "minecraft:shield"
+  ]
+}
