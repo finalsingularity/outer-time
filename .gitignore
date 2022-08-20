@@ -3,7 +3,8 @@
 level.dat_old
 session.lock
 /advancements/
-/data/
+/data/*
+!/data/map_*
 /DIM-1/
 /DIM1/
 /dimensions/outer/the_past/
